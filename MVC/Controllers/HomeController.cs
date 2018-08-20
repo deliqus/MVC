@@ -26,5 +26,12 @@ namespace MVC.Controllers
 
             return View();
         }
+
+        public ActionResult Products()
+        {
+            ViewBag.Message = "Your product page.";
+
+            return View();
+        }
     }
 }
